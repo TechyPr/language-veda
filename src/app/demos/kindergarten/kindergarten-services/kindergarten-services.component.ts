@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { CarouselModule, OwlOptions } from 'ngx-owl-carousel-o';
 
 @Component({
     selector: 'app-kindergarten-services',
-    imports: [CarouselModule],
+    imports: [RouterLink, CarouselModule],
     templateUrl: './kindergarten-services.component.html',
     styleUrls: ['./kindergarten-services.component.scss']
 })

@@ -2,8 +2,66 @@
     <div class="container">
         <div class="section-title">
             <span class="sub-title">Our Services</span>
-            <h2 class="font-weight-black">Best Services for Kids</h2>
+            <!-- <h2 class="font-weight-black">Best Services for Kids</h2> -->
             <p>Explore all of our courses and pick your suitable ones to enroll and start learning with us! We ensure that you will never regret it!</p>
+        </div>
+        <div class="language-title">
+            <span class="language-sub-title">Language Learning</span>
+        </div>
+        <div class="services-slides">
+            <owl-carousel-o [options]="servicesSlides">
+                <ng-template carouselSlide>
+                    <div class="instructor-events-box">
+                        <div class="events-image">
+                            <a routerLink="/event-details" class="d-block">
+                                <img src="img/language-courses/kannada.jpg" alt="image">
+                            </a>
+                        </div>
+                        <div class="events-content">
+                            <h3 class="el-messiri-font"><a routerLink="/single-course-1">Kannada</a></h3>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="instructor-events-box">
+                        <div class="events-image">
+                            <a routerLink="/event-details" class="d-block">
+                                <img src="img/language-courses/sanskritR.jpg" alt="image">
+                            </a>
+                        </div>
+                        <div class="events-content">
+                            <h3 class="el-messiri-font"><a routerLink="/single-course-1">Sanskrit</a></h3>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="instructor-events-box">
+                        <div class="events-image">
+                            <a routerLink="/event-details" class="d-block">
+                                <img src="img/language-courses/marathi.jpg" alt="image">
+                            </a>
+                        </div>
+                        <div class="events-content">
+                            <h3 class="el-messiri-font"><a routerLink="/single-course-1">Marathi</a></h3>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="instructor-events-box">
+                        <div class="events-image">
+                            <a routerLink="/event-details" class="d-block">
+                                <img src="img/language-courses/telugu.jpg" alt="image">
+                            </a>
+                        </div>
+                        <div class="events-content">
+                            <h3 class="el-messiri-font"><a routerLink="/single-course-1">Telugu</a></h3>
+                        </div>
+                    </div>
+                </ng-template>
+            </owl-carousel-o>
+        </div>
+        <div style="padding-top: 57px" class="language-title">
+            <span class="language-sub-title">Language Tutions</span>
         </div>
         <div class="services-slides">
             <owl-carousel-o [options]="servicesSlides">
@@ -13,11 +71,14 @@
                         <div class="content">
                             <div class="icon">
                                 <i class="flaticon-guitar"></i>
+                                <a routerLink="/single-course-1" class="link-btn"></a>
                             </div>
-                            <h3 class="font-weight-black">Music Training</h3>
-                            <p>Lorem ipsum dolor sit amet, ipsum adipiscing elit elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum.</p>
+                            
+                                <h3 class="font-weight-black"><a routerLink="/single-course-1">Kannada</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                         </div>
                     </div>
+                    
                 </ng-template>
                 <ng-template carouselSlide>
                     <div class="single-kindergarten-services-box">
@@ -26,7 +87,7 @@
                             <div class="icon">
                                 <i class="flaticon-experience"></i>
                             </div>
-                            <h3 class="font-weight-black">Sports Training</h3>
+                            <h3 class="font-weight-black"><a routerLink="/single-course-1">Sanskrit</a></h3>
                             <p>Lorem ipsum dolor sit amet, ipsum adipiscing elit elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum.</p>
                         </div>
                     </div>
@@ -38,7 +99,7 @@
                             <div class="icon">
                                 <i class="flaticon-artist"></i>
                             </div>
-                            <h3 class="font-weight-black">Art Training</h3>
+                            <h3 class="font-weight-black"><a routerLink="/single-course-1">Marathi</a></h3>
                             <p>Lorem ipsum dolor sit amet, ipsum adipiscing elit elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum.</p>
                         </div>
                     </div>
@@ -50,17 +111,17 @@
                             <div class="icon">
                                 <i class="flaticon-translation"></i>
                             </div>
-                            <h3 class="font-weight-black">Language Training</h3>
+                            <h3 class="font-weight-black"><a routerLink="/single-course-1">Telugu</a></h3>
                             <p>Lorem ipsum dolor sit amet, ipsum adipiscing elit elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum.</p>
                         </div>
                     </div>
                 </ng-template>
             </owl-carousel-o>
         </div>
-        <div class="kids-kite-image">
+        <!-- <div class="kids-kite-image">
             <img src="img/kids-with-kite.png" alt="image">
-        </div>
+        </div> -->
     </div>
-    <div class="kindergarten-shape9"><img src="img/kindergarten-shape/k-shape9.png" alt="image"></div>
-    <div class="kindergarten-shape10"><img src="img/kindergarten-shape/k-shape10.png" alt="image"></div>
+    <!-- <div class="kindergarten-shape9"><img src="img/kindergarten-shape/k-shape9.png" alt="image"></div>
+    <div class="kindergarten-shape10"><img src="img/kindergarten-shape/k-shape10.png" alt="image"></div> -->
 </div>

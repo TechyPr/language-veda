@@ -14,6 +14,9 @@
                     <span class="bottom-bar"></span>
                 </span>
             </button>
+            <div>
+            <a routerLink="/profile-authentication" class="default-btn"><i class="flaticon-user"></i>Free Demo<span></span></a>
+        </div>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <!-- <form class="search-box">
                     <input type="text" class="input-search" placeholder="Search for anything">
@@ -220,10 +223,32 @@
                             </li>
                         </ul>
                     </li> -->
-                    <li class="nav-item megamenu">
-                        <a routerLink="/courses-1" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" href="javascript:void(0)" class="nav-link">
-                            Courses
+                    <li class="nav-item">
+                        <a href="javascript:void(0)" class="nav-link">
+                            Courses <i class='bx bx-chevron-down'></i>
                         </a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <a routerLink="/courses-1" class="nav-link" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">
+                                    Language Learning
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a routerLink="/courses-1" class="nav-link" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">
+                                    Language Tutions
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a routerLink="/courses-1" class="nav-link" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">
+                                    Corporate Training
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a routerLink="/courses-1" class="nav-link" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">
+                                    Entended Program
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a routerLink="/about-3" class="nav-link" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}" href="javascript:void(0)" class="nav-link">

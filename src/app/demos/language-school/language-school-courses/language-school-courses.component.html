@@ -2,10 +2,10 @@
     <div class="container">
         <div class="section-title">
             <span class="sub-title">Welcome to Language Veda</span>
-            <h2>Our Language Courses</h2>
+            <h2>Our Top Selling Courses</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
-        <div class="row justify-content-center">
+        <!-- <div class="row justify-content-center">
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="single-language-courses-box">
                     <img src="img/language-courses/kannada.jpg" alt="image">
@@ -40,22 +40,82 @@
                     <a routerLink="/courses-1" class="default-btn"><i class="flaticon-right"></i>View More<span></span></a>
                 </div>
             </div>
-            <!-- <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-language-courses-box">
-                    <img src="img/language-courses/img2.png" alt="image">
-                    <h3>Malayalam</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                    <a routerLink="/courses-1" class="default-btn"><i class="flaticon-right"></i>View More<span></span></a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="single-language-courses-box">
-                    <img src="img/language-courses/img3.png" alt="image">
-                    <h3>Odia</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                    <a routerLink="/courses-1" class="default-btn"><i class="flaticon-right"></i>View More<span></span></a>
-                </div>
-            </div> -->
+        </div> -->
+        <div class="courses-slides-two">
+            <owl-carousel-o [options]="coursesSlides">
+                <ng-template carouselSlide>
+                    <div class="single-kindergarten-courses-box">
+                        <div class="courses-image">
+                            <div class="image">
+                                <img src="img/language-courses/kannada.jpg" alt="image">
+                            </div>
+                            <a routerLink="/single-course-1" class="link-btn"></a>
+                        </div>
+                        <div class="courses-content">
+                            <h3 class="font-weight-black"><a routerLink="/single-course-1">Kannada</a></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                            <ul class="courses-box-footer d-flex justify-content-between align-items-center">
+                                <li><i class='flaticon-agenda'></i> 15 Lessons</li>
+                                <li><i class='flaticon-people'></i> 145 Students</li>
+                            </ul>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="single-kindergarten-courses-box">
+                        <div class="courses-image">
+                            <div class="image">
+                                <img src="img/language-courses/sanskritR.jpg" alt="image">
+                            </div>
+                            <a routerLink="/single-course-1" class="link-btn"></a>
+                        </div>
+                        <div class="courses-content">
+                            <h3 class="font-weight-black"><a routerLink="/single-course-1">Sanskrit</a></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                            <ul class="courses-box-footer d-flex justify-content-between align-items-center">
+                                <li><i class='flaticon-agenda'></i> 20 Lessons</li>
+                                <li><i class='flaticon-people'></i> 100 Students</li>
+                            </ul>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="single-kindergarten-courses-box">
+                        <div class="courses-image">
+                            <div class="image">
+                                <img src="img/language-courses/marathi.jpg" alt="image">
+                            </div>
+                            <a routerLink="/single-course-1" class="link-btn"></a>
+                        </div>
+                        <div class="courses-content">
+                            <h3 class="font-weight-black"><a routerLink="/single-course-1">Marathi</a></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                            <ul class="courses-box-footer d-flex justify-content-between align-items-center">
+                                <li><i class='flaticon-agenda'></i> 20 Lessons</li>
+                                <li><i class='flaticon-people'></i> 150 Students</li>
+                            </ul>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="single-kindergarten-courses-box">
+                        <div class="courses-image">
+                            <div class="image">
+                                <img src="img/language-courses/telugu.jpg" alt="image">
+                            </div>
+                            <a routerLink="/single-course-1" class="link-btn"></a>
+                        </div>
+                        <div class="courses-content">
+                            <h3 class="font-weight-black"><a routerLink="/single-course-1">Telugu</a></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                            <ul class="courses-box-footer d-flex justify-content-between align-items-center">
+                                <li><i class='flaticon-agenda'></i> 20 Lessons</li>
+                                <li><i class='flaticon-people'></i> 150 Students</li>
+                            </ul>
+                        </div>
+                    </div>
+                </ng-template>
+            </owl-carousel-o>
         </div>
     </div>
 </div>
